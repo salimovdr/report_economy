@@ -15,6 +15,7 @@ flowchart TD
     D --> E{Specific Client Needs?}
     E -- Yes --> F[Custom Algorithm Development]
     E -- No --> G[Model Integration]
+```
 
 
 
