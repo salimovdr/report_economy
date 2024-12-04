@@ -8,13 +8,14 @@ Muzzlebook — это высокоточное IT-решение для авто
 
 ```mermaid
 flowchart TD
-    A[Muzzlebook API Integration] --> B[Insurance Companies: e.g., Allstate, Petplan]
-    A --> C[Conservation Organizations: e.g., WWF]
+    A[Muzzlebook API Integration] --> B[Insurance Companies: Allstate, Petplan]
+    A --> C[Conservation Organizations: WWF]
     B --> D[Pre-trained Model Usage]
     C --> D
     D --> E{Specific Client Needs?}
     E -- Yes --> F[Custom Algorithm Development]
     E -- No --> G[Model Integration]
+
 
 
 С точки зрения конкурентоспособности, Muzzlebook предлагает преимущества перед традиционными методами идентификации (например, RFID-метками) благодаря более низкой стоимости жизненного цикла, отсутствию необходимости в физическом взаимодействии с животными и высокой точности алгоритмов (до 97% в полевых испытаниях). Эти показатели делают продукт привлекательным как для коммерческих, так и для природоохранных организаций, стремящихся сократить затраты и повысить эффективность своих процессов.
