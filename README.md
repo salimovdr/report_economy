@@ -8,8 +8,8 @@ Muzzlebook — это высокоточное IT-решение для авто
 
 ```mermaid
 flowchart TD
-    A[Muzzlebook API Integration] --> B[Insurance Companies (e.g., Allstate, Petplan)]
-    A --> C[Conservation Organizations (e.g., WWF)]
+    A[Muzzlebook API Integration] --> B[Insurance Companies: e.g., Allstate, Petplan]
+    A --> C[Conservation Organizations: e.g., WWF]
     B --> D[Pre-trained Model Usage]
     C --> D
     D --> E{Specific Client Needs?}
